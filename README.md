@@ -1,15 +1,4 @@
-eleVR Web Player
-================
 
-The eleVR player lets you watch 360 flat and stereo video on your Oculus Rift or Android device with VR headset (Cardboard, Durovis Dive, etc.) from a web browser. It is written with js, html5, and webGL.
-
-eleVR Web Player works with the native browser support currently being implemented by [Firefox](http://blog.bitops.com/blog/2014/06/26/first-steps-for-vr-on-the-web/) and [Chromium](https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&usp=sharing#list). Please note that these experimental browsers may not have mp4 support.
-
-The player depends on the open source libraries as noted in the [3rd Party Libraries](https://github.com/hawksley/eleVR-Web-Player/blob/master/README.md#3rd-party-libraries) section. With the advent of (experimental) direct webVR support by Firefox and Chromium, the player no longer depends on the vr.js plugin.
-
-Videos shown in the player can be rotated using keyboard controls  (a/d, w/s, and q/e), as well as by the Oculus Rift if you are running an experimental webVR browser. You may be able to decrease video judder by setting your Oculus Display refresh rate to 60 Hz (the browser refreshes at 60 Hz and the slower mismatch can cause judder).
-
-#### [Go check out the demo!](http://hawksley.github.io/eleVR-Web-Player/) ####
 
 The following table documents the keyboard controls currently available.
 
@@ -26,9 +15,6 @@ The following table documents the keyboard controls currently available.
 | q   | rotate left |
 | e   | rotate right |
 
-eleVR Player was developed by [eleVR](http://eleVR.com). eleVR is a project of the Communications Design Group and is supported by SAP. The contributors to the project are [@hawksley](https://github.com/hawksley) and [@amluto](https://github.com/amluto).
-
-It currently supports spherical video with equirectangular projections and spherical 3D video with top/bottom equirectangular projections. eleVR Player Master does not come bundled with any video files, but you can get two small demo `*.webm` files from the gh-pages branch, one for each projection. Alternatively, you can use your own spherical video or can download larger mp4 files from the [eleVR Downloads Page](http://elevr.com/downloads/).
 
 ### Support ###
 Using keyboard rotation controls, the player works on standard Firefox and Chrome on Windows, Mac, and Linux. It also runs on Safari (if webgl is enabled). I haven't tested it on other browsers.
